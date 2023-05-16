@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>minutesCount</title>
+</head>
+<body>
+  <div class="container">
+    <section class="minutos-horas">
+      <h1>Convertidor de minutos a horas</h1>
+      <div class="flex">
+        <label for="minutos">Minutos</label>
+        <input type="tel" id="minutos" required>
+        <h2 id="horas-el">Horas:</h2>
+      </div>
+      <button id="btn" class="btn">Convertir</button>
+      <button id="btn-borrar" class="btn borrar">Borrar</button>
+    </section>
+    <section class="pomodoros">
+      <h1>Convertidor de pomodoros a minutos</h1>
+      <div class="flex">
+        <label for="pomodoros">Pomodoros</label>
+        <input type="tel" id="pomodoros" required>
+        <h2 id="pomodoros-min">Minutos:</h2>
+      </div>
+      <button id="btn-pomodoro" class="btn">Convertir</button>
+      <button id="btn-borrar-pomodoro" class="btn borrar">Borrar</button>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
