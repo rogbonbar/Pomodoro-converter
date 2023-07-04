@@ -13,16 +13,6 @@
 </head>
 <body>
   <div class="container">
-    <section class="minutos-horas">
-      <h1>Convertidor de minutos a horas</h1>
-      <div class="flex">
-        <label for="minutos">Minutos</label>
-        <input type="tel" id="minutos" required>
-        <h2 id="horas-el">Horas:</h2>
-      </div>
-      <button id="btn" class="btn">Convertir</button>
-      <button id="btn-borrar" class="btn borrar">Borrar</button>
-    </section>
     <section class="pomodoros">
       <h1>Convertidor de pomodoros a minutos</h1>
       <div class="flex">
@@ -30,8 +20,18 @@
         <input type="tel" id="pomodoros" required>
         <h2 id="pomodoros-min">Minutos:</h2>
       </div>
-      <button id="btn-pomodoro" class="btn">Convertir</button>
       <button id="btn-borrar-pomodoro" class="btn borrar">Borrar</button>
+      <button id="btn-pomodoro " class="btn convertir">Convertir</button>
+    </section>
+    <section class="minutos-horas">
+      <h1>Convertidor de minutos a horas</h1>
+      <div class="flex">
+        <label for="minutos">Minutos</label>
+        <input type="tel" id="minutos" required>
+        <h2 id="horas-el">Horas:</h2>
+      </div>
+      <button id="btn-borrar" class="btn borrar">Borrar</button>
+      <button id="btn" class="btn convertir">Convertir</button>
     </section>
   </div>
   <script src="script.js"></script>
