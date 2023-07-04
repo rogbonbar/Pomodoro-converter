@@ -6,6 +6,7 @@ let numPomodoros = document.getElementById('pomodoros')
 let minPomodoros = document.querySelector('#pomodoros-min')
 const btnBorrarHoras = document.getElementById('btn-borrar')
 const btnBorrarPomodoros = document.querySelector('#btn-borrar-pomodoro')
+console.log(btnPomodoro)
 
 
 btnEl.addEventListener('click', () => {
