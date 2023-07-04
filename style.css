@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 250px;
 }
 .flex {
   display: flex;
@@ -57,5 +58,5 @@ input {
 .minutos-horas {
   margin-top: 2rem;
   outline: 2px solid steelblue;
-  min-width: 600px;
+  min-width: 80vw;
 }
